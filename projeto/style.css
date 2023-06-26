@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:monospace ;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #081b29;
+}
+.header-box{
+    display: flex;
+    justify-content: space-between;
+    background: silver solid 15px;
+    background: transparent;
+}
+.nome{
+    margin-left: 2%;
+    font-size: 25px;
+    color: whitesmoke;
+    text-decoration: none;}
+
+.nome:hover{
+    color: crimson;
+}
+
+.menu{
+    font-size: 20px;
+    margin-left: 50%;
+}
+.navbar a{
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 400;
+    margin-right: 30px;
+    transition: .3s;
+}
+.navbar a:hover {
+    color: crimson;
+}
+.subtitle{
+    color:crimson;
+    font-size: 17px;
+    margin-top: 0.3%; margin-left: 0.2%;
+}
+.subtitle p{
+    margin-left: 2%;
+}
+
+.frente{
+    display: flex;
+    margin-top: 14%;
+    margin-left: 4%;
+    color: whitesmoke;
+}
+.frente span{
+    color: crimson;
+}
+
+.frente img{
+    margin-left: 25%;
+    border-radius: 70%;
+    }
+.frente img:hover{
+    transition: all .25s ease;
+    transform: scale(1.25) translateX(15px);
+}     
+.paragrafo{
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 2%;
+    max-width: 570px;
+    color: aliceblue;
+    font-size: 15px;
+    border: 1.2px solid DarkSlateBlue;
+    box-shadow: 5px 5px 5px DarkSlateBlue ;
+    text-align: justify;
+    text-indent: 5px;
+}
+.paragrafo p{
+    margin-left: 1%;
+    text-indent: 20px;
+}
+
+.paragrafo span{
+    color: crimson;
+}
+
+.posição{
+    display: flex;
+}
+.posição img{
+    margin-top: 2%;
+    margin-left: 25%;
+}
+.posição img:hover{
+    transition: all .25s ease;
+    transform: scale(1.2) translatey(20px);
+
+}
+
+.habilidadeicone img{
+    width: 200px;
+}
+
+section{
+    margin-left: 2%;
+    margin-top: 2%;
+    font-size: larger;
+    color: crimson;
+}
+section details summary{
+    display: inline;
+    font-size: larger;
+    color: azure;
+}
+section details summary:hover{
+    color: crimson;
+    transition: all .25s ease;
+    transform: scale(1.25) translateX(15px);
+}
+section details img:hover{
+    color: crimson;
+    transition: all .25s ease;
+    transform: scale(1.1) translatey(15px);
+}
+
+/* media */
+@media (max-width: 768px) {
+
+    body, p, a, h4 {
+    
+    font-size: 14px;
+    
+    }
+    .full-width-img {
+        margin: auto;
+        width: 65%;
+        }   
+    
+    }
+
+
+@media (max-width: 992px) {
+
+    body, p, a, h4 {
+    
+    font-size: 24px;
+    
+    }
+    .full-width-img {
+        margin: auto;
+        width: 80%;
+        }
+    
+    }
